@@ -1,0 +1,34 @@
+#nav-bar{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#section1{
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+}
+
+#destacado:hover{
+    color: red
+}
+
+#img-section6{
+    margin-top:7rem;
+}
+
+#logo{
+    height:5rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    #img-section6{
+        margin-top:2rem;
+        margin-bottom: 2rem;
+
+    }
+    
+   
+}
